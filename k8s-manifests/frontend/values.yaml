@@ -1,0 +1,9 @@
+
+replicaCount: 2
+image:
+  repository: your-dockerhub-username/kubeobserve360-frontend
+  tag: latest
+  pullPolicy: IfNotPresent
+service:
+  type: ClusterIP
+  port: 5173

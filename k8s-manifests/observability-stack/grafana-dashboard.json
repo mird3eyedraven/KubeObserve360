@@ -1,0 +1,17 @@
+
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "type": "dashboard",
+        "name": "Annotations & Alerts",
+        "enable": true
+      }
+    ]
+  },
+  "panels": [],
+  "title": "KubeObserve360 Observability",
+  "uid": "kubeobserve360",
+  "version": 1
+}

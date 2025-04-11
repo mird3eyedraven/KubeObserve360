@@ -1,0 +1,15 @@
+
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: argocd
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: argocd-service-account
+  namespace: argocd
+---
+# Full ArgoCD installation would be via Helm or Kustomize:
+# helm repo add argo https://argoproj.github.io/argo-helm
+# helm install argocd argo/argo-cd --namespace argocd --create-namespace
